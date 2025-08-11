@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="my_database@localhost" uuid="ea20f011-7823-4dac-92db-3631deba64ea">
+      <driver-ref>mysql_aurora_aws</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>software.aws.rds.jdbc.mysql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql:aws://localhost:3306/my_database</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.host.port" />
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+        <property name="com.intellij.clouds.kubernetes.db.resource.type" value="Deployment" />
+        <property name="com.intellij.clouds.kubernetes.db.container.port" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
